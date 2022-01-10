@@ -156,7 +156,7 @@ body{
     color: #ced6e0;
     animation: fadein ease-in 10s;
 }
-.lovethuy_gift{
+.lovethuygift,.gift-open{
     position: absolute;
     top: 35%;
     left: 50%;
@@ -166,6 +166,18 @@ body{
     color: #ced6e0;
     display: flex;
     overflow-x: hidden;
+}
+.btn-open-giftlove{
+    background: #c0392b;
+    color: #fff;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    height: 38px;
+}
+.btn-open-giftlove:hover{
+    background-color: #2ed573;
+    cursor: pointer;
 }
 @keyframes fadein{
     from{
